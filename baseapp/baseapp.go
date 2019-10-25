@@ -11,7 +11,7 @@ import (
 
 	"errors"
 
-	"github.com/gogo/protobuf/proto"
+	"github.com/gracenoah/protobuf/proto"
 
 	abci "github.com/gracenoah/tendermint/abci/types"
 	"github.com/gracenoah/tendermint/crypto/tmhash"

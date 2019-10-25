@@ -101,10 +101,12 @@ github.com/gorilla/websocket v1.4.0 h1:WDFjx/TMzVgy9VdMMQi2K2Emtwi2QcUQsztZ/zLaH
 github.com/gorilla/websocket v1.4.0/go.mod h1:E7qHFY5m1UJ88s3WnNqhKjPHQ0heANvMoAMk2YaljkQ=
 github.com/gorilla/websocket v1.4.1 h1:q7AeDBpnBk8AogcD4DSag/Ukw/KV+YhzLj2bP5HvKCM=
 github.com/gorilla/websocket v1.4.1/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
-github.com/gracenoah/iavl v0.12.4-renamed3 h1:/OA1WPatnoxu5bZy2SBZ4EV6+12fXuDyzmXDemXps3g=
-github.com/gracenoah/iavl v0.12.4-renamed3/go.mod h1:dLv9W0gF69ieCFrd1xmx1Am/ipq4pIal942tEXJtu4s=
-github.com/gracenoah/tendermint v0.32.6-renamed h1:sOrSb9h/7kA4+jI7G9I+fR0IU2/oR7aBvY2JJB8TJK8=
-github.com/gracenoah/tendermint v0.32.6-renamed/go.mod h1:Ke0gr8sIAVDOSMkyLJem0nms+5NqItqNGjIcRRF9ib4=
+github.com/gracenoah/iavl v0.12.4-renamed4 h1:L0G1H0nhzMa6As5F9xeQ1yU2qvI+pApfl35amoV/naA=
+github.com/gracenoah/iavl v0.12.4-renamed4/go.mod h1:/846V5C4tvSsYXhbwz2MeN7X4bs8NiI2C9Os/kivuVM=
+github.com/gracenoah/protobuf v1.3.1-renamed h1:D1jm267Inum0JyH3aDm3sPJ5r2FuLy9p+vzRjxsZRKI=
+github.com/gracenoah/protobuf v1.3.1-renamed/go.mod h1:9am9Km0d33iMymg3ts3/nfxhE2HWZ0Rg46OGLR/VDZ8=
+github.com/gracenoah/tendermint v0.32.6-renamed2 h1:T6WQ11niFbSbz27rRar0VZmAJEZDDeQoL5BrzII6mxM=
+github.com/gracenoah/tendermint v0.32.6-renamed2/go.mod h1:OWkQrG8llQ6bW8hjHIeYfAbZ81EhCidQtTMpBO8nOIg=
 github.com/grpc-ecosystem/go-grpc-middleware v1.0.0/go.mod h1:FiyG127CGDf3tlThmgyCl78X/SZQqEOJBCDaAfeWzPs=
 github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0/go.mod h1:8NvIoxWQoOIhqOTXgfV/d3M/q6VIi02HzZEHgUlZvzk=
 github.com/grpc-ecosystem/grpc-gateway v1.9.0/go.mod h1:vNeuVxBJEsws4ogUvrchl83t/GYV9WGTSLVdBhOQFDY=
