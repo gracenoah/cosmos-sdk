@@ -10,7 +10,7 @@ require (
 	github.com/golang/mock v1.3.1-0.20190508161146-9fa652df1129
 	github.com/gorilla/mux v1.7.0
 	github.com/gracenoah/iavl v0.12.4-renamed2 //indirect
-	github.com/gracenoah/tendermint v0.32.0-renamed
+	github.com/gracenoah/tendermint v0.32.6-renamed
 	github.com/mattn/go-isatty v0.0.6
 	github.com/pelletier/go-toml v1.2.0
 	github.com/pkg/errors v0.8.1
