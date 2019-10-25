@@ -1,9 +1,9 @@
 package types // noalias
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/staking/exported"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	"github.com/gracenoah/cosmos-sdk/x/staking/exported"
 )
 
 // AccountKeeper expected account keeper

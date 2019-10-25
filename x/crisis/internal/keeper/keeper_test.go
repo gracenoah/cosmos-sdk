@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/gracenoah/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/crisis/internal/types"
-	"github.com/cosmos/cosmos-sdk/x/params"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/crisis/internal/types"
+	"github.com/gracenoah/cosmos-sdk/x/params"
 )
 
 func testPassingInvariant(_ sdk.Context) (string, bool) {

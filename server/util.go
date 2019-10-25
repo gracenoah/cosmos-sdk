@@ -14,17 +14,17 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/cli"
-	tmflags "github.com/tendermint/tendermint/libs/cli/flags"
-	"github.com/tendermint/tendermint/libs/log"
-	pvm "github.com/tendermint/tendermint/privval"
+	tcmd "github.com/gracenoah/tendermint/cmd/tendermint/commands"
+	cfg "github.com/gracenoah/tendermint/config"
+	"github.com/gracenoah/tendermint/libs/cli"
+	tmflags "github.com/gracenoah/tendermint/libs/cli/flags"
+	"github.com/gracenoah/tendermint/libs/log"
+	pvm "github.com/gracenoah/tendermint/privval"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/gracenoah/cosmos-sdk/client/flags"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/server/config"
+	"github.com/gracenoah/cosmos-sdk/version"
 )
 
 // server context

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/supply/exported"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/gov/types"
+	"github.com/gracenoah/cosmos-sdk/x/params"
+	"github.com/gracenoah/cosmos-sdk/x/supply/exported"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/gracenoah/tendermint/libs/log"
 )
 
 // Governance Keeper

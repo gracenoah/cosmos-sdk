@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/codec"
 )
 
 // ModuleName is "accounts"

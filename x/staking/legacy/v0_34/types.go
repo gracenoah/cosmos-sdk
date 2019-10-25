@@ -5,10 +5,10 @@ package v0_34
 import (
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
+	"github.com/gracenoah/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 const (

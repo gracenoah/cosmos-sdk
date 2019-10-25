@@ -9,17 +9,17 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cosmos/cosmos-sdk/crypto"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/keyerror"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/mintkey"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/crypto"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys/hd"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/gracenoah/cosmos-sdk/types"
 
 	bip39 "github.com/cosmos/go-bip39"
 
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	tmcrypto "github.com/gracenoah/tendermint/crypto"
+	cryptoAmino "github.com/gracenoah/tendermint/crypto/encoding/amino"
+	"github.com/gracenoah/tendermint/crypto/secp256k1"
 	dbm "github.com/tendermint/tm-db"
 )
 

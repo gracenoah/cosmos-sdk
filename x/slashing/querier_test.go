@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/codec"
 )
 
 func TestNewQuerier(t *testing.T) {

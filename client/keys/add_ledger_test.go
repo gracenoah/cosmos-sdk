@@ -8,12 +8,12 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keys"
-	"github.com/cosmos/cosmos-sdk/tests"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/client/flags"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys"
+	"github.com/gracenoah/cosmos-sdk/tests"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 func Test_runAddCmdLedger(t *testing.T) {

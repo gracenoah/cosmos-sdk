@@ -1,8 +1,8 @@
 package exported
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/crypto"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/tendermint/crypto"
 )
 
 // DelegationI delegation bond for a delegated proof of stake system

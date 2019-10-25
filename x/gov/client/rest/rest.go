@@ -7,12 +7,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
-	gcutils "github.com/cosmos/cosmos-sdk/x/gov/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/gracenoah/cosmos-sdk/client/context"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/types/rest"
+	"github.com/gracenoah/cosmos-sdk/x/auth/client/utils"
+	gcutils "github.com/gracenoah/cosmos-sdk/x/gov/client/utils"
+	"github.com/gracenoah/cosmos-sdk/x/gov/types"
 )
 
 // REST Variable names

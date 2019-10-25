@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"time"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	tmtypes "github.com/tendermint/tendermint/types"
+	cfg "github.com/gracenoah/tendermint/config"
+	"github.com/gracenoah/tendermint/crypto"
+	"github.com/gracenoah/tendermint/libs/common"
+	"github.com/gracenoah/tendermint/p2p"
+	"github.com/gracenoah/tendermint/privval"
+	tmtypes "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/gracenoah/cosmos-sdk/server"
 )
 
 // ExportGenesisFile creates and writes the genesis configuration to disk. An

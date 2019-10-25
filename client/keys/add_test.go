@@ -6,10 +6,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/tests"
+	"github.com/gracenoah/cosmos-sdk/client/flags"
+	"github.com/gracenoah/cosmos-sdk/tests"
 )
 
 func Test_runAddCmdBasic(t *testing.T) {

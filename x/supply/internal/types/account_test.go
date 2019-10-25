@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/crypto"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/tendermint/crypto"
 	"gopkg.in/yaml.v2"
 
 	"github.com/stretchr/testify/require"

@@ -7,7 +7,7 @@ import (
 	"math"
 	"strings"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "github.com/gracenoah/tendermint/rpc/core/types"
 )
 
 // Result is the union of ResponseFormat and ResponseCheckTx.

@@ -1,7 +1,7 @@
 package keys
 
 import (
-	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/gracenoah/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 )
 
