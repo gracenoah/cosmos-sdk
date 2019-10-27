@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/baseapp"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 	abci "github.com/gracenoah/tendermint/abci/types"
 )
 

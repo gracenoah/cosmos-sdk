@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 func TestGetSetValidatorSigningInfo(t *testing.T) {

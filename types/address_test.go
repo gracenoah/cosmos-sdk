@@ -7,7 +7,7 @@ import (
 
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 	"github.com/gracenoah/tendermint/crypto/ed25519"
 )

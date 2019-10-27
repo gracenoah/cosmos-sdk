@@ -9,11 +9,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptokeys "github.com/cosmos/cosmos-sdk/crypto/keys"
-	"github.com/cosmos/cosmos-sdk/x/auth"
+	"github.com/gracenoah/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/client/keys"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	cryptokeys "github.com/gracenoah/cosmos-sdk/crypto/keys"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
 
 	"github.com/spf13/viper"
 
@@ -23,7 +23,7 @@ import (
 	tmliteProxy "github.com/gracenoah/tendermint/lite/proxy"
 	rpcclient "github.com/gracenoah/tendermint/rpc/client"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 var (

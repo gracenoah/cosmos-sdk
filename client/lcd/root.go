@@ -14,14 +14,14 @@ import (
 	"github.com/gracenoah/tendermint/libs/log"
 	rpcserver "github.com/gracenoah/tendermint/rpc/lib/server"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	keybase "github.com/cosmos/cosmos-sdk/crypto/keys"
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/gracenoah/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/client/context"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	keybase "github.com/gracenoah/cosmos-sdk/crypto/keys"
+	"github.com/gracenoah/cosmos-sdk/server"
 
 	// Import statik for light client stuff
-	_ "github.com/cosmos/cosmos-sdk/client/lcd/statik"
+	_ "github.com/gracenoah/cosmos-sdk/client/lcd/statik"
 )
 
 // RestServer represents the Light Client Rest server

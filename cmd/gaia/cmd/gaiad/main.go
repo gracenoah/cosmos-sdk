@@ -13,13 +13,13 @@ import (
 	"github.com/gracenoah/tendermint/libs/log"
 	tmtypes "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/cmd/gaia/app"
-	gaiaInit "github.com/cosmos/cosmos-sdk/cmd/gaia/init"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/baseapp"
+	"github.com/gracenoah/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/cmd/gaia/app"
+	gaiaInit "github.com/gracenoah/cosmos-sdk/cmd/gaia/init"
+	"github.com/gracenoah/cosmos-sdk/server"
+	"github.com/gracenoah/cosmos-sdk/store"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 // gaiad custom flags

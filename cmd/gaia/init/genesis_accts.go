@@ -8,12 +8,12 @@ import (
 	"github.com/gracenoah/tendermint/libs/cli"
 	"github.com/gracenoah/tendermint/libs/common"
 
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/cmd/gaia/app"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
+	"github.com/gracenoah/cosmos-sdk/client/keys"
+	"github.com/gracenoah/cosmos-sdk/cmd/gaia/app"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/server"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
 )
 
 // AddGenesisAccountCmd returns add-genesis-account cobra Command.

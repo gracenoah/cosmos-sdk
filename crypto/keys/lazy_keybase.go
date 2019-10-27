@@ -6,8 +6,8 @@ import (
 	"github.com/gracenoah/tendermint/crypto"
 	cmn "github.com/gracenoah/tendermint/libs/common"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/hd"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys/hd"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 var _ Keybase = lazyKeybase{}

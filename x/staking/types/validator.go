@@ -10,8 +10,8 @@ import (
 	"github.com/gracenoah/tendermint/crypto"
 	tmtypes "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 // nolint

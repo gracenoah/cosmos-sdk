@@ -3,7 +3,7 @@ package types
 import (
 	cmn "github.com/gracenoah/tendermint/libs/common"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/gracenoah/cosmos-sdk/store/types"
 )
 
 // nolint - reexport

@@ -10,8 +10,8 @@ import (
 
 	abci "github.com/gracenoah/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/store"
+	"github.com/gracenoah/cosmos-sdk/types"
 )
 
 type MockLogger struct {

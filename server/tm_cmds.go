@@ -14,8 +14,8 @@ import (
 	pvm "github.com/gracenoah/tendermint/privval"
 	tversion "github.com/gracenoah/tendermint/version"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 const (

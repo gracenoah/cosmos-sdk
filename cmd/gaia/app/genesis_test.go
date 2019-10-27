@@ -12,9 +12,9 @@ import (
 	"github.com/gracenoah/tendermint/crypto/secp256k1"
 	tmtypes "github.com/gracenoah/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
 )
 
 var (

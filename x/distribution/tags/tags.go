@@ -2,7 +2,7 @@
 package tags
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 // Distribution tx tags

@@ -11,9 +11,9 @@ import (
 	"github.com/gracenoah/tendermint/crypto/secp256k1"
 	tmtypes "github.com/gracenoah/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	keep "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	keep "github.com/gracenoah/cosmos-sdk/x/staking/keeper"
+	"github.com/gracenoah/cosmos-sdk/x/staking/types"
 )
 
 //______________________________________________________________________

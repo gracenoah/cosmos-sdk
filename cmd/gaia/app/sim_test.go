@@ -18,22 +18,22 @@ import (
 	"github.com/gracenoah/tendermint/libs/log"
 	tmtypes "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authsim "github.com/cosmos/cosmos-sdk/x/auth/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	banksim "github.com/cosmos/cosmos-sdk/x/bank/simulation"
-	distr "github.com/cosmos/cosmos-sdk/x/distribution"
-	distrsim "github.com/cosmos/cosmos-sdk/x/distribution/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	govsim "github.com/cosmos/cosmos-sdk/x/gov/simulation"
-	"github.com/cosmos/cosmos-sdk/x/mint"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing"
-	slashingsim "github.com/cosmos/cosmos-sdk/x/slashing/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingsim "github.com/cosmos/cosmos-sdk/x/staking/simulation"
+	"github.com/gracenoah/cosmos-sdk/baseapp"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	authsim "github.com/gracenoah/cosmos-sdk/x/auth/simulation"
+	"github.com/gracenoah/cosmos-sdk/x/bank"
+	banksim "github.com/gracenoah/cosmos-sdk/x/bank/simulation"
+	distr "github.com/gracenoah/cosmos-sdk/x/distribution"
+	distrsim "github.com/gracenoah/cosmos-sdk/x/distribution/simulation"
+	"github.com/gracenoah/cosmos-sdk/x/gov"
+	govsim "github.com/gracenoah/cosmos-sdk/x/gov/simulation"
+	"github.com/gracenoah/cosmos-sdk/x/mint"
+	"github.com/gracenoah/cosmos-sdk/x/simulation"
+	"github.com/gracenoah/cosmos-sdk/x/slashing"
+	slashingsim "github.com/gracenoah/cosmos-sdk/x/slashing/simulation"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
+	stakingsim "github.com/gracenoah/cosmos-sdk/x/staking/simulation"
 )
 
 var (
@@ -307,7 +307,7 @@ func fauxMerkleModeOpt(bapp *baseapp.BaseApp) {
 }
 
 // Profile with:
-// /usr/local/go/bin/go test -benchmem -run=^$ github.com/cosmos/cosmos-sdk/cmd/gaia/app -bench ^BenchmarkFullGaiaSimulation$ -SimulationCommit=true -cpuprofile cpu.out
+// /usr/local/go/bin/go test -benchmem -run=^$ github.com/gracenoah/cosmos-sdk/cmd/gaia/app -bench ^BenchmarkFullGaiaSimulation$ -SimulationCommit=true -cpuprofile cpu.out
 func BenchmarkFullGaiaSimulation(b *testing.B) {
 	// Setup Gaia application
 	logger := log.NewNopLogger()

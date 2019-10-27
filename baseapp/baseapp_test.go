@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	store "github.com/cosmos/cosmos-sdk/store/types"
+	store "github.com/gracenoah/cosmos-sdk/store/types"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -16,8 +16,8 @@ import (
 	dbm "github.com/gracenoah/tendermint/libs/db"
 	"github.com/gracenoah/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 var (

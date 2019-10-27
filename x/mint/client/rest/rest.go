@@ -1,8 +1,8 @@
 package rest
 
 import (
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/client/context"
+	"github.com/gracenoah/cosmos-sdk/codec"
 	"github.com/gorilla/mux"
 )
 

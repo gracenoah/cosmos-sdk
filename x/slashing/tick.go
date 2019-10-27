@@ -6,7 +6,7 @@ import (
 	abci "github.com/gracenoah/tendermint/abci/types"
 	tmtypes "github.com/gracenoah/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 // slashing begin block functionality

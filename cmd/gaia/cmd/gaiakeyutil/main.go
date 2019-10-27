@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 	"github.com/gracenoah/tendermint/libs/bech32"
 )
 

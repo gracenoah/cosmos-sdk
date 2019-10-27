@@ -12,7 +12,7 @@ import (
 	"github.com/gracenoah/tendermint/crypto/multisig"
 	"github.com/gracenoah/tendermint/crypto/secp256k1"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 // run the tx through the anteHandler and ensure its valid

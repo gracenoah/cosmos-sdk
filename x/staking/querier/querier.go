@@ -6,10 +6,10 @@ import (
 
 	abci "github.com/gracenoah/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	keep "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	keep "github.com/gracenoah/cosmos-sdk/x/staking/keeper"
+	"github.com/gracenoah/cosmos-sdk/x/staking/types"
 )
 
 // query endpoints supported by the staking Querier

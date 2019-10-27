@@ -6,7 +6,7 @@ import (
 
 	"github.com/gracenoah/tendermint/crypto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 // ensure Msg interface compliance at compile time

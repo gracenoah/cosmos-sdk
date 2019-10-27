@@ -15,7 +15,7 @@ import (
 	dbm "github.com/gracenoah/tendermint/libs/db"
 	tmtypes "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/codec"
 )
 
 const (

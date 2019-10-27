@@ -8,7 +8,7 @@ import (
 
 	abci "github.com/gracenoah/tendermint/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 func TestTickExpiredDepositPeriod(t *testing.T) {

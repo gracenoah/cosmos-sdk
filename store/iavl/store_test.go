@@ -11,8 +11,8 @@ import (
 	cmn "github.com/gracenoah/tendermint/libs/common"
 	dbm "github.com/gracenoah/tendermint/libs/db"
 
-	"github.com/cosmos/cosmos-sdk/store/errors"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/gracenoah/cosmos-sdk/store/errors"
+	"github.com/gracenoah/cosmos-sdk/store/types"
 )
 
 var (

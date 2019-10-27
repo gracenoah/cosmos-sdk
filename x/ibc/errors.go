@@ -1,7 +1,7 @@
 package ibc
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 // IBC errors reserve 200 ~ 299.

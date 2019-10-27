@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/gracenoah/tendermint/crypto/secp256k1"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/hd"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys/hd"
+	"github.com/gracenoah/cosmos-sdk/types"
 )
 
 func Test_writeReadLedgerInfo(t *testing.T) {

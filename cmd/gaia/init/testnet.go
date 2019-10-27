@@ -9,16 +9,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cosmos/cosmos-sdk/client/keys"
+	"github.com/gracenoah/cosmos-sdk/client/keys"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/cmd/gaia/app"
-	"github.com/cosmos/cosmos-sdk/codec"
-	srvconfig "github.com/cosmos/cosmos-sdk/server/config"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/client/txbuilder"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/gracenoah/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/cmd/gaia/app"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	srvconfig "github.com/gracenoah/cosmos-sdk/server/config"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	authtx "github.com/gracenoah/cosmos-sdk/x/auth/client/txbuilder"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -28,7 +28,7 @@ import (
 	"github.com/gracenoah/tendermint/types"
 	tmtime "github.com/gracenoah/tendermint/types/time"
 
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/gracenoah/cosmos-sdk/server"
 )
 
 var (

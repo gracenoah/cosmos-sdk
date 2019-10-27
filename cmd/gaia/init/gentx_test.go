@@ -3,9 +3,9 @@ package init
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/gracenoah/cosmos-sdk/server"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/staking/client/cli"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 	tcmd "github.com/gracenoah/tendermint/cmd/tendermint/commands"

@@ -3,8 +3,8 @@ package mintkey_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys/mintkey"
 	"github.com/stretchr/testify/require"
 	cryptoAmino "github.com/gracenoah/tendermint/crypto/encoding/amino"
 	"github.com/gracenoah/tendermint/crypto/secp256k1"
