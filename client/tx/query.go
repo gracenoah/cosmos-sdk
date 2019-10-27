@@ -7,7 +7,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
-	"github.com/tendermint/tendermint/types"
+	"github.com/gracenoah/tendermint/types"
 
 	"github.com/spf13/viper"
 

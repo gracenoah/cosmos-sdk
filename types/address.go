@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/encoding/amino"
+	"github.com/gracenoah/tendermint/crypto"
+	"github.com/gracenoah/tendermint/crypto/encoding/amino"
 
-	"github.com/tendermint/tendermint/libs/bech32"
+	"github.com/gracenoah/tendermint/libs/bech32"
 )
 
 const (

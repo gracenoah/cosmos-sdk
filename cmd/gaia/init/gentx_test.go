@@ -8,10 +8,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/log"
+	tcmd "github.com/gracenoah/tendermint/cmd/tendermint/commands"
+	cfg "github.com/gracenoah/tendermint/config"
+	"github.com/gracenoah/tendermint/crypto"
+	"github.com/gracenoah/tendermint/libs/log"
 )
 
 func Test_prepareFlagsForTxCreateValidator(t *testing.T) {

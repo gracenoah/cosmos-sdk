@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/cli"
 )
 
 // Get a free address for a test tendermint server

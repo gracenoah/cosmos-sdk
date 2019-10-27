@@ -17,11 +17,11 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/tendermint/libs/cli"
-	"github.com/tendermint/tendermint/libs/log"
-	tmlite "github.com/tendermint/tendermint/lite"
-	tmliteProxy "github.com/tendermint/tendermint/lite/proxy"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
+	"github.com/gracenoah/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/log"
+	tmlite "github.com/gracenoah/tendermint/lite"
+	tmliteProxy "github.com/gracenoah/tendermint/lite/proxy"
+	rpcclient "github.com/gracenoah/tendermint/rpc/client"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/gracenoah/tendermint/libs/db"
+	"github.com/gracenoah/tendermint/libs/log"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/x/auth"
@@ -19,7 +19,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/slashing"
 	"github.com/cosmos/cosmos-sdk/x/staking"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
 )
 
 func setGenesis(gapp *GaiaApp, accs ...*auth.BaseAccount) error {

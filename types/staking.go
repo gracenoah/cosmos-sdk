@@ -3,8 +3,8 @@ package types
 import (
 	"math/big"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
+	abci "github.com/gracenoah/tendermint/abci/types"
+	"github.com/gracenoah/tendermint/crypto"
 )
 
 // status of a validator

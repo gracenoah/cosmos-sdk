@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
-	"github.com/tendermint/tendermint/libs/cli"
-	"github.com/tendermint/tendermint/p2p"
-	pvm "github.com/tendermint/tendermint/privval"
-	tversion "github.com/tendermint/tendermint/version"
+	tcmd "github.com/gracenoah/tendermint/cmd/tendermint/commands"
+	"github.com/gracenoah/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/p2p"
+	pvm "github.com/gracenoah/tendermint/privval"
+	tversion "github.com/gracenoah/tendermint/version"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"

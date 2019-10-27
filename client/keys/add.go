@@ -17,9 +17,9 @@ import (
 
 	bip39 "github.com/cosmos/go-bip39"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/multisig"
-	"github.com/tendermint/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/crypto"
+	"github.com/gracenoah/tendermint/crypto/multisig"
+	"github.com/gracenoah/tendermint/libs/cli"
 )
 
 const (

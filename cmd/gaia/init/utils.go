@@ -8,12 +8,12 @@ import (
 	"time"
 
 	amino "github.com/tendermint/go-amino"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/gracenoah/tendermint/config"
+	"github.com/gracenoah/tendermint/crypto"
+	"github.com/gracenoah/tendermint/libs/common"
+	"github.com/gracenoah/tendermint/p2p"
+	"github.com/gracenoah/tendermint/privval"
+	"github.com/gracenoah/tendermint/types"
 
 	"github.com/cosmos/cosmos-sdk/cmd/gaia/app"
 	"github.com/cosmos/cosmos-sdk/codec"

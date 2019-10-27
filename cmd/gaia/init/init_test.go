@@ -14,10 +14,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/mock"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	abciServer "github.com/tendermint/tendermint/abci/server"
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
-	"github.com/tendermint/tendermint/libs/cli"
-	"github.com/tendermint/tendermint/libs/log"
+	abciServer "github.com/gracenoah/tendermint/abci/server"
+	tcmd "github.com/gracenoah/tendermint/cmd/tendermint/commands"
+	"github.com/gracenoah/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/log"
 )
 
 func TestInitCmd(t *testing.T) {

@@ -149,7 +149,7 @@ func NewCodec() *codec.Codec {
 }
 ```
 
-Note: We also register the types in the `tendermint/tendermint/crypto` module so that `crypto.PubKey`
+Note: We also register the types in the `gracenoah/tendermint/crypto` module so that `crypto.PubKey`
 is encoded/decoded correctly.
 
 Amino supports encoding and decoding in both a binary and JSON format.

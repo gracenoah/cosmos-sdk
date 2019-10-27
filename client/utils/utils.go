@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/libs/common"
+	"github.com/gracenoah/tendermint/libs/common"
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/client/keys"

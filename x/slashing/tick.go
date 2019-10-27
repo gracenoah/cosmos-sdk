@@ -3,8 +3,8 @@ package slashing
 import (
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmtypes "github.com/tendermint/tendermint/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
+	tmtypes "github.com/gracenoah/tendermint/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

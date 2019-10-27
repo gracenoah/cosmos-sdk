@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/multisig"
-	"github.com/tendermint/tendermint/libs/cli"
+	tmcrypto "github.com/gracenoah/tendermint/crypto"
+	"github.com/gracenoah/tendermint/crypto/multisig"
+	"github.com/gracenoah/tendermint/libs/cli"
 )
 
 const (

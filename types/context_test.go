@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/log"
+	dbm "github.com/gracenoah/tendermint/libs/db"
+	"github.com/gracenoah/tendermint/libs/log"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
 
 	"github.com/cosmos/cosmos-sdk/store"
 	"github.com/cosmos/cosmos-sdk/types"

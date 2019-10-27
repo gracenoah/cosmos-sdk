@@ -5,7 +5,7 @@ package rest
 import (
 	"errors"
 	"fmt"
-	"github.com/tendermint/tendermint/types"
+	"github.com/gracenoah/tendermint/types"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -18,7 +18,7 @@ import (
 
 const (
 	DefaultPage  = 1
-	DefaultLimit = 30 // should be consistent with tendermint/tendermint/rpc/core/pipe.go:19
+	DefaultLimit = 30 // should be consistent with gracenoah/tendermint/rpc/core/pipe.go:19
 )
 
 // GasEstimateResponse defines a response definition for tx gas estimation.

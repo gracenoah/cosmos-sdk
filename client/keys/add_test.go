@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/spf13/viper"
-	"github.com/tendermint/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/cli"
 
 	"github.com/cosmos/cosmos-sdk/tests"
 

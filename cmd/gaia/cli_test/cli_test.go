@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto/ed25519"
+	"github.com/gracenoah/tendermint/crypto/ed25519"
 
 	"github.com/stretchr/testify/require"
 

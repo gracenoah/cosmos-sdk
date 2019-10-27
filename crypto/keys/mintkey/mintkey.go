@@ -6,12 +6,12 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/armor"
-	"github.com/tendermint/tendermint/crypto/encoding/amino"
-	"github.com/tendermint/tendermint/crypto/xsalsa20symmetric"
+	"github.com/gracenoah/tendermint/crypto"
+	"github.com/gracenoah/tendermint/crypto/armor"
+	"github.com/gracenoah/tendermint/crypto/encoding/amino"
+	"github.com/gracenoah/tendermint/crypto/xsalsa20symmetric"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
+	cmn "github.com/gracenoah/tendermint/libs/common"
 
 	"github.com/cosmos/cosmos-sdk/crypto/keys/keyerror"
 )

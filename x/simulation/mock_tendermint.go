@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	tmtypes "github.com/tendermint/tendermint/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
+	cmn "github.com/gracenoah/tendermint/libs/common"
+	tmtypes "github.com/gracenoah/tendermint/types"
 )
 
 type mockValidator struct {

@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	"github.com/tendermint/iavl"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	dbm "github.com/tendermint/tendermint/libs/db"
+	abci "github.com/gracenoah/tendermint/abci/types"
+	"github.com/gracenoah/tendermint/crypto/merkle"
+	cmn "github.com/gracenoah/tendermint/libs/common"
+	dbm "github.com/gracenoah/tendermint/libs/db"
 
 	"github.com/cosmos/cosmos-sdk/store/cachekv"
 	"github.com/cosmos/cosmos-sdk/store/errors"
@@ -49,7 +49,7 @@ type Store struct {
 	numRecent int64
 
 	// This is the distance between state-sync waypoint states to be stored.
-	// See https://github.com/tendermint/tendermint/issues/828
+	// See https://github.com/gracenoah/tendermint/issues/828
 	// A value of 1 means store every state.
 	// A value of 0 means store no waypoints. (node cannot assist in state-sync)
 	// By default this value should be set the same across all nodes,
