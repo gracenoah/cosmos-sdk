@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/iavl"
+	"github.com/gracenoah/iavl"
 	abci "github.com/gracenoah/tendermint/abci/types"
 	cmn "github.com/gracenoah/tendermint/libs/common"
 	dbm "github.com/gracenoah/tendermint/libs/db"
